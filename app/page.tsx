@@ -111,7 +111,7 @@ function Hero({
             src="/videos/marketing/main-30s-16x9.mp4"
             poster="/images/hero-product-yellow.jpg"
           />
-          <div className="absolute bottom-4 right-4 bg-background px-4 py-3 md:bottom-8 md:right-8">
+          <div className="absolute bottom-4 right-4 hidden bg-background px-4 py-3 md:bottom-8 md:right-8 md:block">
             <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.18em] text-primary">
               Spec
             </p>
