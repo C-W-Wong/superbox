@@ -51,6 +51,7 @@ export function ProductPDP({ product }: { product: ShopifyProduct }) {
                 bundleId={bundleId}
                 onBundleChange={setBundleId}
               />
+              <div id="buy-box-end" aria-hidden="true" />
               <TrustStrip />
               <div className="mt-6">
                 <SpecsSheet />
